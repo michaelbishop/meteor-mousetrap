@@ -3,6 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function (api){
-	api.add_files('lib/mousetrap/mousetrap.js', 'client');
+	api.add_files('mousetrap.js', 'client');
 	api.export && api.export('Mousetrap');
 });
